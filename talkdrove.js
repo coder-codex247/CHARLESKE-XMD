@@ -1,92 +1,91 @@
-
 {
-    "bot-name": "CHARLESKE-XMD_BOT",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr Charleskenya1",
-    "logo": "https://files.catbox.moe/z62ts0.jpg",
-    "keywords": ["bot"],
-    "documentation-link": "https://charle-ke.onrender.com/",
-    "owner-verification": "Charlesodhiamboofficiall@gmail.com",  
-    "env": {
-      "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with ey~  or get session id from here,  https://charle-ke.onrender.com/",
-        "value":"",
-        "required": true        
+  "bot-name": "𝐂𝐨𝐝𝐞𝐱𝐗 𝐍𝐞𝐨𝐍",
+  "description": "Whiskey Sockets Baileys Whatsapp bot By Mr Codex 🇳🇬",
+  "logo": "https://files.catbox.moe/z62ts0.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://charle-ke.onrender.com/",
+  "owner-verification": "charlesodhiamboofficiall@gmail.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Make sure it starts with ey~  or get session id from here,  https://charle-ke.onrender.com/",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkF3ZnpVQ2tLWWRoY0NNWE1JcWtRMUhvMDlQTm0rd2oxL1RmNWdxSG9Gaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQTl2Z1ZRN2R5dXlGbzVYN2hjNWJvTnNqaEtDems1UHNROXdyN3dvZ0hqcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxR2JCdVZ3K0Jab09veGZ5cW9kRVZ1MmtDOWpCY2tiY1FIaU1ITDRGQlVJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMdDV6azBxRzUrRWY1bzRUSW4xUS9MTWxIUDRBYTBSTU1GWGM4Y09LelE4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVMQzJKVW1VM3pSNkhVVng4aHpFMnZOQ1VqaHB4ZEhDdEJuNEpQMGZFVzQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlKdGRLd0R2QmxGRnp5QXhkTDNCcnNqdENpZmNqbGxzWHhBN1czbVpqRHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUI4a2ZzRXpXeHMySHZTTnJKTTlybDhCdmxFamRncDNLMVBDT1I3d0xGST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicTUvUzc5cDVSZ1NjK3RFSTNheVY0NG1ZMzRhRjlsNlVYeFQ4eExTZnJpRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFaRzJqbVk5SjlWQ3FaT25Ea0tnbXQ3OUIzb3FVTjlPT0lrU3o1NjNIRjZYcEo2WFpGNnNMODg4ZWJpcUE1Y2FEZ3d2YXVlcHZyNWRiRHEyR3NScGlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTcyLCJhZHZTZWNyZXRLZXkiOiJCckYzRk95eEQyeHQ3aDh4OERqWTBQUG12VDQrOS80NDFnQzFZenVCbXRrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwNTg0OTY2MDVAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQ0UxNjBCODE5Q0I5RkYyMzBBREZCQTc3OTlGNzRDN0EifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc1MDU1OTM0NX0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODA1ODQ5NjYwNUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJERDZGRjE5NUJFNTI3QTk3MzE3OTI0N0JBOTQ0MzE5NSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzUwNTU5MzUyfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiIxMjNMT1RVUyIsIm1lIjp7ImlkIjoiMjM0ODA1ODQ5NjYwNTo0NkBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjU2MTUzMDA2NDA3Njg0OjQ2QGxpZCIsIm5hbWUiOiLimIbgv5DgvLXgvb3gvIbgvJIg8J2RqvCdkpDwnZKF8J2ShvCdkpkg8J2RuPCdkoLwnZKC8J2SlPCdkorwnZKOIOC8kuC8huC/kOC8teC9vSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDT0xoZ3g4UTJ0VGR3Z1lZQ0NBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVno0aUl1ZnhBZDFHVnRMYW5CVm1wWE81RGdyYXVxdmx4L2x6NlFwSlBoZz0iLCJhY2NvdW50U2lnbmF0dXJlIjoidDhTZkZiMXFTVmVDVUgzVU5MR1h3dUNHU1d6U3g3MHBqZXdiVlRGK0wxdDQwNm5QTXQyYWE4WkxTaUx2d3NKNndIZkw0M09admFKYXk1MFEvMmJ1Qnc9PSIsImRldmljZVNpZ25hdHVyZSI6Ik1PcUdFNFhJN1VSa2hFdk1KeTI1T3lBbTJMWXhQZGRFcE1kVkltVVdNVU1sR0tPelBaWFBjaWtSZEJxSnNsNXFMTU1kTEpCQlpGcmtlNWtzNldoaGpRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODA1ODQ5NjYwNTo0NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJWYytJaUxuOFFIZFJsYlMycHdWWnFWenVRNEsycnFyNWNmNWMra0tTVDRZIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQWdJRFE9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTA1NTkzMzUsImxhc3RQcm9wSGFzaCI6IjJHNEFtdSIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSTZHIn0=",
+      "required": true
     },
-      "PREFIX": {
-        "description": "Bot command prefix, (e.g, . , ! @ etc",
-        "value":".",
-        "required": true        
-    },     
+    "PREFIX": {
+      "description": "Bot command prefix, (e.g, . , ! @ etc",
+      "value": ".",
+      "required": true
+    },
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "CHARLESKE-XMD 𝙱𝙾𝚃"  
-    },    
+      "value": "𝐂𝐨𝐝𝐞𝐱𝐗 𝐍𝐞𝐨𝐍"
+    },
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"      
-    },        
+      "value": "private"
+    },
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "false"  
-   },      
+      "value": "false"
+    },
     "AUTO_VOICE": {
-      "description": "Make it true if want automatic voice reply .",
+      "description": "Make it true if want automatic voice reply.",
       "required": false,
       "value": "false"
-   }, 
+    },
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": false,
       "value": "false"
-   }, 
+    },
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
       "required": false,
       "value": "false"
-   }, 
+    },
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
       "value": "false"
-   }, 
+    },
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "false"   
-   },     
+      "value": "false"
+    },
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "®charleske"
-   }, 
+      "value": "Codex"
+    },
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254759626063"
-   }, 
+      "value": "2348058496605"
+    },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "CHARLESKE-XMD"
-   }, 
+      "value": "𝐂𝐨𝐝𝐞𝐱𝐗 𝐍𝐞𝐨𝐍"
+    },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "true"      
-   },    
+      "value": "true"
+    },
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    }, 
-      "DELETE_LINKS": {
+    },
+    "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
       "value": "false"
-    },    
+    },
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
       "required": false,
@@ -101,17 +100,17 @@
       "description": "Make it true if you want react on every message.",
       "required": false,
       "value": "false"
-    },    
+    },
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
       "required": false,
-      "value": "false"      
-    },    
+      "value": "false"
+    },
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"    
-    }, 
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+    },
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
       "required": false,
