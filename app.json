@@ -1,137 +1,112 @@
 {
-  "name":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
-  "description":"Best whatsapp bot💥 developed by Charles ke🇰🇪",
-  "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://ibb.co/q70RyBd",
-  "repository":"https://github.com/ekitale/maths-project",
-  "succes_url":"/",
-  "stack":"heroku-24",
-  "env":{
-    "PREFIX":
-    {
-      "description":"choose your prefix of bot",
-      "value":".",
-      "required":true
+  "name": "𝐂𝐨𝐝𝐞𝐱𝐗 𝐍𝐞𝐨𝐍",
+  "description": "Sleek WhatsApp bot ⚡ powered by Codex",
+  "keywords": ["bot", "node", "baileys", "whatsapp", "codex"],
+  "logo": "https://ibb.co/q70RyBd",
+  "repository": "https://github.com/ekitale/maths-project",
+  "succes_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "PREFIX": {
+      "description": "Choose your prefix of bot",
+      "value": ".",
+      "required": true
     },
-    "AUTO_READ_STATUS":
-    {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
-      "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
-    {
-      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
+    "AUTO_READ_STATUS": {
+      "description": "Auto read contact status (yes/no)",
+      "value": "no",
+      "required": false
     },
-    "AUTO_READ":
-    {
-      "description":"Your contact  will be read messages automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
-      "required":false   
-      },
-  "AUTO_REACT":
-    {
-      "description":"Enter yes for your bot to auto react",
-      "value":"no",
-      "required":false
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Auto download contact status (yes/no)",
+      "value": "no",
+      "required": false
     },
-"ANTICALL":
-    {
-      "description":"Enter yes for your bot to auto reject calls",
-      "value":"yes",
-      "required":false
+    "AUTO_READ": {
+      "description": "Auto read messages (yes/no)",
+      "value": "no",
+      "required": false
     },
-"AUTO_REACT_STATUS":
-    {
-      "description":"Enter yes for your bot to auto like status",
-      "value":"yes",
-      "required":true
+    "AUTO_REACT": {
+      "description": "Bot auto reacts to messages (yes/no)",
+      "value": "no",
+      "required": false
     },
-     "PM_PERMIT" :
-     {
-      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
-    "BOT_NAME" : {
-       
-      "description":"put A name for your bot",
-      "value":"𝘾𝙃𝘼𝙍𝙇𝙀𝙎𝙆𝙀 𝙓𝙈𝘿",
-      "required":false
-
-    } ,
-     "BOT_MENU_LINKS" : {
-    
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://ibb.co/JjV0S4Tn",
-      "required":false
-       
-     },
-    "PUBLIC_MODE":
-    {
-      "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
-      "required":false
-    }
-	,
+    "ANTICALL": {
+      "description": "Reject calls automatically (yes/no)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_REACT_STATUS": {
+      "description": "Auto like contact status (yes/no)",
+      "value": "no",
+      "required": true
+    },
+    "PM_PERMIT": {
+      "description": "Restrict bot in private chat (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Set your bot name",
+      "value": "𝐂𝐨𝐝𝐞𝐱𝐗 𝐍𝐞𝐨𝐍",
+      "required": false
+    },
+    "BOT_MENU_LINKS": {
+      "description": "Bot menu links (comma separated URLs)",
+      "value": "https://ibb.co/JjV0S4Tn",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Bot in public mode? (yes/no)",
+      "value": "no",
+      "required": false
+    },
     "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+      "description": "Insert your Heroku API key (optional)",
+      "required": false
     },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (put the name you put on top)",
-     "required" :false
-    }  
-	  ,
-    "SESSION_ID":
-    {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
-      "required":true
-      
+    "HEROKU_APP_NAME": {
+      "description": "Insert your Heroku app name",
+      "required": false
     },
-    "OWNER_NAME":
-    {
-    
-    "desc": "Your Name",
-    "required": false,
-    "value": "©charles"
+    "SESSION_ID": {
+      "description": "Insert your session ID",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkF3ZnpVQ2tLWWRoY0NNWE1JcWtRMUhvMDlQTm0rd2oxL1RmNWdxSG9Gaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQTl2Z1ZRN2R5dXlGbzVYN2hjNWJvTnNqaEtDems1UHNROXdyN3dvZ0hqcz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxR2JCdVZ3K0Jab09veGZ5cW9kRVZ1MmtDOWpCY2tiY1FIaU1ITDRGQlVJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMdDV6azBxRzUrRWY1bzRUSW4xUS9MTWxIUDRBYTBSTU1GWGM4Y09LelE4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVMQzJKVW1VM3pSNkhVVng4aHpFMnZOQ1VqaHB4ZEhDdEJuNEpQMGZFVzQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlKdGRLd0R2QmxGRnp5QXhkTDNCcnNqdENpZmNqbGxzWHhBN1czbVpqRHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUI4a2ZzRXpXeHMySHZTTnJKTTlybDhCdmxFamRncDNLMVBDT1I3d0xGST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicTUvUzc5cDVSZ1NjK3RFSTNheVY0NG1ZMzRhRjlsNlVYeFQ4eExTZnJpRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFaRzJqbVk5SjlWQ3FaT25Ea0tnbXQ3OUIzb3FVTjlPT0lrU3o1NjNIRjZYcEo2WFpGNnNMODg4ZWJpcUE1Y2FEZ3d2YXVlcHZyNWRiRHEyR3NScGlRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTcyLCJhZHZTZWNyZXRLZXkiOiJCckYzRk95eEQyeHQ3aDh4OERqWTBQUG12VDQrOS80NDFnQzFZenVCbXRrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W3sia2V5Ijp7InJlbW90ZUppZCI6IjIzNDgwNTg0OTY2MDVAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiQ0UxNjBCODE5Q0I5RkYyMzBBREZCQTc3OTlGNzRDN0EifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc1MDU1OTM0NX0seyJrZXkiOnsicmVtb3RlSmlkIjoiMjM0ODA1ODQ5NjYwNUBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiJERDZGRjE5NUJFNTI3QTk3MzE3OTI0N0JBOTQ0MzE5NSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzUwNTU5MzUyfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiIxMjNMT1RVUyIsIm1lIjp7ImlkIjoiMjM0ODA1ODQ5NjYwNTo0NkBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjU2MTUzMDA2NDA3Njg0OjQ2QGxpZCIsIm5hbWUiOiLimIbgv5DgvLXgvb3gvIbgvJIg8J2RqvCdkpDwnZKF8J2ShvCdkpkg8J2RuPCdkoLwnZKC8J2SlPCdkorwnZKOIOC8kuC8huC/kOC8teC9vSJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDT0xoZ3g4UTJ0VGR3Z1lZQ0NBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVno0aUl1ZnhBZDFHVnRMYW5CVm1wWE81RGdyYXVxdmx4L2x6NlFwSlBoZz0iLCJhY2NvdW50U2lnbmF0dXJlIjoidDhTZkZiMXFTVmVDVUgzVU5MR1h3dUNHU1d6U3g3MHBqZXdiVlRGK0wxdDQwNm5QTXQyYWE4WkxTaUx2d3NKNndIZkw0M09admFKYXk1MFEvMmJ1Qnc9PSIsImRldmljZVNpZ25hdHVyZSI6Ik1PcUdFNFhJN1VSa2hFdk1KeTI1T3lBbTJMWXhQZGRFcE1kVkltVVdNVU1sR0tPelBaWFBjaWtSZEJxSnNsNXFMTU1kTEpCQlpGcmtlNWtzNldoaGpRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODA1ODQ5NjYwNTo0NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJWYytJaUxuOFFIZFJsYlMycHdWWnFWenVRNEsycnFyNWNmNWMra0tTVDRZIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQWdJRFE9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTA1NTkzMzUsImxhc3RQcm9wSGFzaCI6IjJHNEFtdSIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSTZHIn0=",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "value": "Codex",
+      "required": false
+    },
+    "NUMERO_OWNER": {
+      "description": "Your number (no +, include country code)",
+      "value": "2348058496605",
+      "required": true
+    },
+    "WARN_COUNT": {
+      "description": "Max warn count for users",
+      "value": "3",
+      "required": false
+    },
+    "STARTING_BOT_MESSAGE": {
+      "description": "Enable bot start message? (yes/no)",
+      "value": "yes",
+      "required": true
+    },
+    "PRESENCE": {
+      "description": "Mark your presence (online/typing/recording/blank)",
+      "value": "",
+      "required": false
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "Enable anti-delete? (yes/no)",
+      "value": "yes",
+      "required": true
+    }
   },
-    "NUMERO_OWNER":
-  {
-    
-    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
-    "required":true,
-    "value": ""
-  },
-    "WARN_COUNT":
-  {
-    "desc": "this is the limit of warn for warning commandes",
-    "required": false,
-    "value": "3"
-  },
-  "STARTING_BOT_MESSAGE":
-  {
-    "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
-  },
-  "PRESENCE":{
-    "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
-  },
-  "ANTI_DELETE_MESSAGE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-        "required": true
-  }
-  },
-	
- 
-	  "buildpacks": [
+  "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
